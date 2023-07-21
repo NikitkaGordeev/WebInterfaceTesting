@@ -10,7 +10,7 @@ import static com.codeborne.selenide.Selenide.*;
 
 public class WebTests {
     @BeforeEach
-    public void SetUp() {
+    public void setUp() {
         open("http://localhost:9999");
     }
 
